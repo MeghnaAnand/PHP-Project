@@ -1,0 +1,11 @@
+
+
+mysql_query("Create table details (KeyId int NOT NULL, value varchar(30), value varchar(30), PRIMARY KEY(KeyId));")or die(mysql_error());  
+mysql_query("INSERT INTO details(KeyId,value,element_detail)VALUES('1','Footer','Hochschule Offenburg')") or die(mysql_error());  
+mysql_query("INSERT INTO details(KeyId,value,element_detail)VALUES('2','Header','Online Databases')") or die(mysql_error());  
+mysql_query("INSERT INTO details(KeyId,value,element_detail)VALUES('3','navi1','Home')") or die(mysql_error());  
+mysql_query("INSERT INTO details(KeyId,value,element_detail)VALUES('4','navi2','Content')") or die(mysql_error());  
+mysql_query("INSERT INTO details(KeyId,value,element_detail)VALUES('5','navi3','Details')") or die(mysql_error());  
+mysql_query("INSERT INTO details(KeyId,value,element_detail)VALUES('6','navi4','This website consists of several text modules')") or die(mysql_error());  
+mysql_query("INSERT INTO details(KeyId,value,element_detail)VALUES('7','navi5','The text modules are defined as values of hashes')") or die(mysql_error());  
+mysql_query("INSERT INTO details(KeyId,value,element_detail)VALUES('8','navi6','Few text here')") or die(mysql_error());

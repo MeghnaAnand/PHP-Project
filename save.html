@@ -1,0 +1,15 @@
+<?php
+
+include 'Connection.php';
+
+echo "Welcome to Modifytable Page!!"."<br>";
+
+$id=$_GET['id'];
+$newvalue=$_GET['textvalue']
+
+mysql_query("UPDATE details SET value='$textvalue' WHERE KeyId='".$id."'");
+echo "Record Updated";
+
+
+
+?>
